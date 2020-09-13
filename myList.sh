@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# check for Google Chrome
-sudo apt install tree google-chrome-stable
+# check for updates and the Google Chrome package via aptitude package manager
+
+sudo apt update && sudo apt install google-chrome-stable
 
 # prints the current working directory
 # sed is an inline text editor that can accept text to be edited
