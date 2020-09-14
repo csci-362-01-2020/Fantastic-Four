@@ -12,4 +12,4 @@ pwd | sed 's:$:<br/>:' > list.html
 ls -alth | sed 's:$:<br/>:' >> list.html
 
 # Chromium will open the file and display it in a browser
-chromium list.html
+chromium-browser list.html
