@@ -27,6 +27,7 @@ import random
 from decimal import Decimal as _Decimal
 #from rational import Rational as _Rational
 #from pyround import pyround
+import sys
 
 from gettext import gettext as _
 
@@ -611,8 +612,8 @@ xor.__doc__ = _(
 
 def main(argv):
     x = add(argv[0], argv[1])
-    y = add(2, argv[3])
     print(x)
-    print(y)
 
-main(1, 3)
+
+if __name__ == "__main__":
+   main(sys.argv[1:])
