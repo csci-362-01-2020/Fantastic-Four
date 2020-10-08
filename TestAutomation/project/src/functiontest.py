@@ -615,4 +615,5 @@ def main(argv):
     print(x)
     print(y)
 
-main(argv)
+if __name__ == "__main__":
+   main(sys.argv[1:])
