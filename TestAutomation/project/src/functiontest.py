@@ -615,4 +615,4 @@ def main(argv):
     print(x)
     print(y)
 
-main(1, 3)
+main(x)
