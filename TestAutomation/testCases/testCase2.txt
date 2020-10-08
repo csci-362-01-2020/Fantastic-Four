@@ -1,7 +1,7 @@
-TC0002
+Test ID: TC0002
 
-testAdd
+Drive: testAdd
 
--1, 1
+Inputs: -1, 1
 
-0
+Oracle: 0

@@ -1,7 +1,7 @@
-TC0001
+Test ID: TC0001
 
-testAdd
+Driver: testAdd
 
-1, 2
+Inputs: 1, 2
 
-3
+Oracle: 3

@@ -1,7 +1,7 @@
-TC0004
+Test ID: TC0004
 
-testAdd
+Driver: testAdd
 
-math.pi, math.sqrt(2)
+Inputs: math.pi, math.sqrt(2)
 
-4.555806215962888   
+Oracle: 4.555806215962888   
