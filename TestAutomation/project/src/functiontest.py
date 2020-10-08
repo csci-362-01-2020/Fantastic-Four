@@ -609,9 +609,9 @@ xor.__doc__ = _(
     'xor(x, y), logical xor. Returns True if either x is True \
 (and y is False) or y is True (and x is False), else returns False')
 
-def main(a, b):
-    x = add(a, b)
-    y = add(2, a)
+def main(argv):
+    x = add(argv[0], argv[1])
+    y = add(2, argv[3])
     print(x)
     print(y)
 
