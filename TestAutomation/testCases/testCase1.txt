@@ -1,18 +1,7 @@
-Test Case ID:
-    TC0001
+TC0001
 
-Requirement being tested:
-    Addition of two numbers
+testAdd
 
-Component being tested:
-    functions.py
+1, 2
 
-Method:
-    add
-
-Test Inputs:
-    1
-    2
-
-Oracles:
-    No errors, expected output of 3
+3
