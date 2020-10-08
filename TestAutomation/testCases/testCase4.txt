@@ -1,0 +1,18 @@
+Test Case ID:
+    TC0001
+
+Requirement being tested:
+    Addition of two numbers
+
+Component being tested:
+    functions.py
+
+Method:
+    add
+
+Test Inputs:
+    math.pi
+    math.sqrt(2)
+
+Oracles:
+    No errors, expected output of the sum of Pi and the square root of 2
