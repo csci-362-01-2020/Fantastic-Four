@@ -1,7 +1,8 @@
+Test Suite: TS0001
 Test ID: TC0002
-
-Drive: testAdd
-
+Requirement: Addition of two numbers
+Component: functions.py
+Driver: testAdd.py
+Method: add(x, y)
 Inputs: -1, 1
-
 Oracle: 0
