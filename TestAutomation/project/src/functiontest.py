@@ -25,8 +25,8 @@
 import math
 import random
 from decimal import Decimal as _Decimal
-from rational import Rational as _Rational
-from pyround import pyround
+#from rational import Rational as _Rational
+#from pyround import pyround
 import sys
 
 from gettext import gettext as _
