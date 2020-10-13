@@ -1,9 +1,12 @@
 #!/bin/env python3
 
 import math
+import functions as fun
 
 def main():
-    
-    print('test')
+
+    test = fun.add(1, 2)
+
+    print(test)
 
 main()
