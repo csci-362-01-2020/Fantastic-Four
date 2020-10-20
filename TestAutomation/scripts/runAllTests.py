@@ -3,28 +3,32 @@
 import math
 import os
 import sys
+import subprocess
 
 def main():
 
     testFiles = []
+    
+    for f in os.walk('../testCases'):
+        testFiles.append(f)
 
-    for i in range(1, 26):
-        testFiles.append('testCase' + str(i) + '.txt')
+    testFiles = sorted(list(testFiles[0][2]))
+    #print(list(testFiles[0][2]))
+    
+    #print(testFiles)
+
+    # for i in range(1, 26):
+    #     testFiles.append('testCase' + str(i) + '.txt')
     
     #print(testFiles)
 
     testCases = {}
     line = []
     parameters = []
-
-    #for f in testFiles:
-
-    inFile = open('../testCases/' + testFiles[0], 'r')
-    fi = []
     
-    for f in testFiles:
+    for f in range(1, len(testFiles)):
         
-        inFile = open('../testCases/' + f, 'r')
+        inFile = open('../testCases/testCase' + str(f) + '.txt', 'r')
         fi = []
 
         for line in inFile:
