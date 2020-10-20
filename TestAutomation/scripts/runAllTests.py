@@ -26,7 +26,7 @@ def main():
     line = []
     parameters = []
     
-    for f in range(1, len(testFiles)):
+    for f in range(1, len(testFiles) + 1):
         
         inFile = open('../testCases/testCase' + str(f) + '.txt', 'r')
         fi = []
