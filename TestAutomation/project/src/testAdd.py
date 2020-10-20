@@ -1,4 +1,4 @@
-import functions
+from calculate-activity import functions
 
 def main(argv):
     x = add(argv[0], argv[1])
