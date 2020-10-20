@@ -4,5 +4,5 @@ Requirement: Addition of two numbers
 Component: functions.py
 Driver: testAdd.py
 Method: add(x, y)
-Inputs: math.pi, math.sqrt(2)
+Inputs: 3.141592653589793, 1.4142135623730951
 Oracle: 4.555806215962888   
