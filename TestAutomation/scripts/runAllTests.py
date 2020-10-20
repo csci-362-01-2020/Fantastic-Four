@@ -15,7 +15,9 @@ def main():
     testFiles = sorted(list(testFiles[0][2]))
     
     tests = parser.parse(testFiles)
-    print(tests)
+    #print(tests)
 
+    testCases = list(tests.keys())
+    #print(testCases)
 
 main()
