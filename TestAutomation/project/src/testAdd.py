@@ -1,4 +1,5 @@
 import functiontest
+import sys
 
 def main(argv):
     x = add(argv[0], argv[1])
