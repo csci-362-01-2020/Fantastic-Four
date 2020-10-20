@@ -1,4 +1,4 @@
-import functiontest
+from functiontest import *
 import sys
 
 def main(argv):
