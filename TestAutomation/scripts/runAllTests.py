@@ -7,6 +7,9 @@ import report
 
 def main():
 
+    # path to functions.py
+    path = '../project/src/calculate-activity/functions.py'
+
     # list for the test case files 
     testFiles = [] 
     
@@ -20,7 +23,7 @@ def main():
     # the files), casts them to a list, and then sorts them
 
     testFiles = sorted(list(testFiles[0][2]))
-    
+
     # helper file that parses the testcases and then returns
     # a dictionary with the following format:
     # {'testCaseID': [testcaseID, requiremnet tested, driver name,
@@ -33,5 +36,6 @@ def main():
     # tests
     testCases = list(tests.keys())
     
+    os.system('cat /dev/null > ../temp/testCaseEvaluations.txt')
 
 main()
