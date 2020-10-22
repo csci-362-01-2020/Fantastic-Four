@@ -2,7 +2,7 @@
 
 import os
 import parser
-import testHelp
+import tester
 import report
 
 def main():
