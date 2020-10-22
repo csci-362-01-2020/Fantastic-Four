@@ -1,8 +1,6 @@
 #!/bin/env python3 
 
-import math
 import os
-import sys
 import parser
 import testHelp
 import report
@@ -30,9 +28,9 @@ def main():
     #  expected oracle]} 
 
     tests = parser.parse(testFiles)
-    
+
     # generates a list of the testcases as keys for running individual
-    #tests
+    # tests
     testCases = list(tests.keys())
     
 
