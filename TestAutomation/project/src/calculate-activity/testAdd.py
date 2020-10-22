@@ -2,7 +2,8 @@ from functions import *
 import sys
 
 def main(argv):
-    x = add(int(argv[0]), int(argv[1]))
+    a = _d(argv[0])
+    x = add(a, argv[1])
     print(x)
 
 
