@@ -36,6 +36,11 @@ def main():
     # tests
     testCases = list(tests.keys())
     
+
+    
+
+
+    # clears the output of the testCaseEvaluations.txt file
     os.system('cat /dev/null > ../temp/testCaseEvaluations.txt')
 
 main()

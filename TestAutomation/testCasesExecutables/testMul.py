@@ -3,6 +3,5 @@
 import math
 import functions as fun
 
-def testAdd(info):
-
+def testMul(info):
     print()

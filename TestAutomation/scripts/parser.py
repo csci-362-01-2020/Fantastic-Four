@@ -31,7 +31,7 @@ def parse(testFiles):
             line = line.split(':')
             line = line[1].strip()
             fi.append(line)
-        
+
         # This loop casts the parameters passed to the function into
         # the appropriate variable types or appropriate library call 
         # for the imported libraries. This will also check for the str()
@@ -61,6 +61,8 @@ def parse(testFiles):
         # this assigns the key to the testcase ID and assigns the list
         # from the testcase ID to the end of the lsit as the value
         testCases[fi[1]] = fi[1:]
+
+        inFile.close()
 
     # return the dictionary for further processing
     return testCases
