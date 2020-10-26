@@ -1,8 +1,18 @@
 #!/bin/env python3
 
 import math
+import sys
+
+sys.path.append('../project/src/calculate-activity')
+
 import functions as fun
 
-def testAdd(info):
+def testAdd(operands):
 
-    print()
+    test = fun.add(operands[0], operands[1])
+
+    return test
+
+    
+
+

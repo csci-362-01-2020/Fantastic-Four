@@ -5,10 +5,9 @@ import parser
 import tester
 import report
 
-def main():
 
-    # path to functions.py
-    path = '../project/src/calculate-activity/functions.py'
+
+def main():
 
     # list for the test case files 
     testFiles = [] 
@@ -26,7 +25,7 @@ def main():
 
     # helper file that parses the testcases and then returns
     # a dictionary with the following format:
-    # {'testCaseID': [testcaseID, requiremnet tested, driver name,
+    # {'testCaseID': [testcaseID, requirement tested, driver name,
     #  class being tested, function being tested, parameters, 
     #  expected oracle]} 
 
@@ -37,7 +36,10 @@ def main():
     testCases = list(tests.keys())
     
 
-    
+    # loop to run the testcases
+    for i in range(1, 6):
+        
+        tester.runTest(tests[testCases[i - 1]])
 
 
     # clears the output of the testCaseEvaluations.txt file
