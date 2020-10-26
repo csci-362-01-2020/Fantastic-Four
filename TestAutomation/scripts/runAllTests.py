@@ -40,6 +40,8 @@ def main():
         
         tester.runTest(tests[testCases[i - 1]])
     
+    # generate a professional grade report based on the testcases that 
+    # have been run
     report.generateReport(tests, testCases)
 
     # clears the output of the testCaseEvaluations.txt file
