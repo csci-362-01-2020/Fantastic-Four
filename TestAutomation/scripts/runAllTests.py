@@ -5,8 +5,6 @@ import parser
 import tester
 import report
 
-
-
 def main():
 
     # list for the test case files 
@@ -33,14 +31,15 @@ def main():
 
     # generates a list of the testcases as keys for running individual
     # tests
+
     testCases = list(tests.keys())
     
-
     # loop to run the testcases
+
     for i in range(1, 6):
         
         tester.runTest(tests[testCases[i - 1]])
-
+    
 
     # clears the output of the testCaseEvaluations.txt file
     os.system('cat /dev/null > ../temp/testCaseEvaluations.txt')
