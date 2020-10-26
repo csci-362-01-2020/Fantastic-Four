@@ -40,6 +40,7 @@ def main():
         
         tester.runTest(tests[testCases[i - 1]])
     
+    report.generateReport(tests, testCases)
 
     # clears the output of the testCaseEvaluations.txt file
     os.system('cat /dev/null > ../temp/testCaseEvaluations.txt')
