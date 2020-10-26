@@ -3,7 +3,7 @@
 import math
 import sys
 
-def parse(testFiles):
+def parse(num):
 
     # Return dictionary
     testCases = {}
@@ -15,7 +15,7 @@ def parse(testFiles):
     parameters = []
     
     #  Loop to iterate over the test files
-    for f in range(1, len(testFiles) + 1):
+    for f in range(1, num):
         
         # Individual test file
         inFile = open('../testCases/testCase' + str(f) + '.txt', 'r')

@@ -27,7 +27,7 @@ def main():
     #  class being tested, function being tested, parameters, 
     #  expected oracle]} 
 
-    tests = parser.parse(testFiles)
+    tests = parser.parse(len(testFiles) + 1)
 
     # generates a list of the testcases as keys for running individual
     # tests
