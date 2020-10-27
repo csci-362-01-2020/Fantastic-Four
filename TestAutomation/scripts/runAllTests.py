@@ -17,7 +17,7 @@ def main():
     # files
     for f in os.walk('../testCases'):
         testFiles.append(f)
-
+    
     # this takes the output of the list which is first a 
     # tuple, and then takes the third argument (the list of
     # the files), casts them to a list, and then sorts them
