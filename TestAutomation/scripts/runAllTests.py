@@ -15,7 +15,7 @@ def main():
     
     # loop for grabbing the directory info with the testcase
     # files
-    for f in os.walk('../testCases'):
+    for f in os.walk('testCases'):
         testFiles.append(f)
     
     # this takes the output of the list which is first a 
