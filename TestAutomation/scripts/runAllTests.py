@@ -47,5 +47,4 @@ def main():
     # have been run
     report.generateReport(tests, testCases)
 
-
 main()
