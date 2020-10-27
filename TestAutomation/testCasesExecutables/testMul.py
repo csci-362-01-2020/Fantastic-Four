@@ -4,11 +4,11 @@
 import math
 import sys
 
-sys.path.append('../project/src/calculate-activity')
-
-import functions as fun
-
 def testMul(operands):
+
+    sys.path.append('../project/src/calculate-activity')
+
+    import functions as fun
 
     # invoke the mul method for the functions.py file 
     test = fun.mul(operands[0], operands[1])

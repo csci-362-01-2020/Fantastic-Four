@@ -5,13 +5,15 @@
 import os
 import sys
 
-sys.path.append('../testCasesExecutables')
-
-# import the test drivers for selected methods
-import testAdd, testSub, testMul, testDiv
 
 def runTest(info):
     
+    sys.path.append('../testCasesExecutables')
+
+    # import the test drivers for selected methods
+    import testAdd, testSub, testMul, testDiv
+
+
     # checks if the substring for the function is in the list of items
     # from the test case text files
     if 'add(' in info[4][:4]:

@@ -18,7 +18,7 @@ def main():
     # this takes the output of the list which is first a 
     # tuple, and then takes the third argument (the list of
     # the files), casts them to a list, and then sorts them
-
+    #print(testFiles[0][2])
     testFiles = sorted(list(testFiles[0][2]))
 
     # helper file that parses the testcases and then returns

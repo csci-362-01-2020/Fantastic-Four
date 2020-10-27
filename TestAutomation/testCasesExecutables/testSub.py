@@ -4,11 +4,11 @@
 import math
 import sys
 
-sys.path.append('../project/src/calculate-activity')
-
-import functions as fun
-
 def testSub(operands):
+
+    sys.path.append('../project/src/calculate-activity')
+
+    import functions as fun
 
     # invoke the sub method for the functions.py file 
     test = fun.sub(operands[0], operands[1])
