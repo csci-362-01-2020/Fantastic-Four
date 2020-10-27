@@ -6,6 +6,8 @@ import tester
 import report
 
 def main():
+    
+    
 
     # list for the test case files 
     testFiles = [] 
@@ -18,7 +20,7 @@ def main():
     # this takes the output of the list which is first a 
     # tuple, and then takes the third argument (the list of
     # the files), casts them to a list, and then sorts them
-    #print(testFiles[0][2])
+    
     testFiles = sorted(list(testFiles[0][2]))
 
     # helper file that parses the testcases and then returns
@@ -44,7 +46,5 @@ def main():
     # have been run
     report.generateReport(tests, testCases)
 
-    # clears the output of the testCaseEvaluations.txt file
-    os.system('cat /dev/null > ../temp/testCaseEvaluations.txt')
 
 main()
