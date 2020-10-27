@@ -18,7 +18,7 @@ def parse(num):
     for f in range(1, num):
         
         # Individual test file
-        inFile = open('../testCases/testCase' + str(f) + '.txt', 'r')
+        inFile = open('testCases/testCase' + str(f) + '.txt', 'r')
         
         # all the necessary data for the file
         fi = []

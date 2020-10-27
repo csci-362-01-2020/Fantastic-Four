@@ -6,7 +6,7 @@ import sys
 
 def testMul(operands):
 
-    sys.path.append('../project/src/calculate-activity')
+    sys.path.append('project/src/calculate-activity')
 
     import functions as fun
 

@@ -4,7 +4,7 @@
 
 def generateReport(info, keys):
 
-    inFile = open('../temp/testCaseEvaluations.txt', 'r')
+    inFile = open('temp/testCaseEvaluations.txt', 'r')
 
     testResult = []
 
