@@ -10,7 +10,7 @@ def generateReport(info, keys):
 
     for line in inFile:
         line = line.strip()
-        testResult.append(line)
+        testResult.append(eval(line))
 
     inFile.close()
     
