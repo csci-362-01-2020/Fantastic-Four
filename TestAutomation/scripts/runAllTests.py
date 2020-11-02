@@ -39,9 +39,9 @@ def main():
     
     # loop to run the testcases
 
-    for i in range(1, 6):
+    for i in range(5):
         
-        tester.runTest(tests[testCases[i - 1]])
+        tester.runTest(tests[testCases[i]])
     
     # generate a professional grade report based on the testcases that 
     # have been run
