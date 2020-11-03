@@ -7,8 +7,10 @@ import report
 
 def main():
     
-    # clears the output of the testCaseEvaluations.txt file
+    # clears the output of the testCaseEvaluations.txt and
+    # testCaseOutputs.txt files
     os.system('cat /dev/null > temp/testCaseEvaluations.txt')
+    os.system('cat /dev/null > temp/testCaseOutputs.txt')
 
     # list for the test case files 
     testFiles = [] 

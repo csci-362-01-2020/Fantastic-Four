@@ -18,6 +18,8 @@ def runTest(info):
     if 'add(' in info[4][:4]:
         
         result = testAdd.testAdd(info[5])
+        #append the output to temp file
+        os.system('echo "' + str(result) + '" >> temp/testCaseOutputs.txt')
         
         # compare the result from the test driver to the expected outcome 
         # and append the result to the temporary file
@@ -32,6 +34,8 @@ def runTest(info):
     elif 'sub(' in info[4][:4]:
 
         result = testSub.testSub(info[5])
+        #append the output to temp file
+        os.system('echo "' + str(result) + '" >> temp/testCaseOutputs.txt')
 
         # compare the result from the test driver to the expected outcome 
         # and append the result to the temporary file
@@ -46,6 +50,8 @@ def runTest(info):
     elif 'mul(' in info[4][:4]:
 
         result = testMul.testMul(info[5])
+        #append the output to temp file
+        os.system('echo "' + str(result) + '" >> temp/testCaseOutputs.txt')
 
         # compare the result from the test driver to the expected outcome 
         # and append the result to the temporary file
@@ -60,6 +66,8 @@ def runTest(info):
     elif 'div(' in info[4][:4]:
 
         result = testDiv.testDiv(info[5])
+        #append the output to temp file
+        os.system('echo "' + str(result) + '" >> temp/testCaseOutputs.txt')
 
         # compare the result from the test driver to the expected outcome 
         # and append the result to the temporary file
