@@ -4,6 +4,7 @@
 
 import os
 import sys
+import datetime 
 
 def generateReport(info, keys):
 
@@ -29,7 +30,11 @@ def generateReport(info, keys):
         
     inFile2.close() 
     
-    with open('reports/report.html', 'w') as out:
+    now = datetime.datetime.now()
+    reportName = 'reports/report-' + str(now.strftime('%Y-%m-%d-%H:%M:%S')) + '.html'
+    
+
+    with open(reportName, 'w') as out:
         og = sys.stdout
         sys.stdout = out
         print('<html>')
@@ -57,5 +62,5 @@ def generateReport(info, keys):
         sys.stdout = og
         
     #open the report    
-    os.system('xdg-open ' + 'reports/report.html')   
+    os.system('xdg-open ' + reportName)   
     
