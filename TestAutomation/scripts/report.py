@@ -29,7 +29,7 @@ def generateReport(info, keys):
         
     inFile2.close() 
     
-    with open('temp/report.html', 'w') as out:
+    with open('reports/report.html', 'w') as out:
         og = sys.stdout
         sys.stdout = out
         print('<html>')
@@ -57,5 +57,5 @@ def generateReport(info, keys):
         sys.stdout = og
         
     #open the report    
-    os.system("xdg-open " + 'temp/report.html')   
+    os.system('xdg-open ' + 'reports/report.html')   
     
