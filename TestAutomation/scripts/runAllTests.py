@@ -41,7 +41,7 @@ def main():
     
     # loop to run the testcases
 
-    for i in range(5):
+    for i in range(15):
         
         tester.runTest(tests[testCases[i]])
     

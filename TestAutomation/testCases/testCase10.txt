@@ -1,8 +1,8 @@
 Test Suite: TS0001
 Test ID: TC0010
-Requirement: Addition of two numbers
+Requirement: Subtraction of two numbers
 Component: functions.py
-Driver: testAdd.py
-Method: add(x, y)
-Inputs: 0
-Oracles: 0
+Driver: testSub.py
+Method: sub(x, y)
+Inputs: sys.maxsize, (2 * (sys.maxsize + 1))
+Oracles: -9223372036854775809

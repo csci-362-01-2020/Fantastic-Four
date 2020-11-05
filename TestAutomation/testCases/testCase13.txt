@@ -2,7 +2,7 @@ Test Suite: TS0001
 Test ID: TC0013
 Requirement: Addition of two numbers
 Component: functions.py
-Driver: testAdd.py
-Method: add(x, y)
-Inputs: 0
-Oracles: 0
+Driver: testMul.py
+Method: mul(x, y)
+Inputs: 1.1, 2.1
+Oracles: 2.3100000000000005

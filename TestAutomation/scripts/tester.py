@@ -10,7 +10,7 @@ def runTest(info):
     sys.path.append('testCasesExecutables')
 
     # import the test drivers for selected methods
-    import testAdd, testSub, testMul, testDiv
+    import testAdd, testSub, testMul, testDiv, testPow
 
 
     # checks if the substring for the function is in the list of items
@@ -77,6 +77,21 @@ def runTest(info):
         else:
             os.system('echo "False" >> temp/testCaseEvaluations.txt')
     
+    elif 'pow(' in info[4][:4]:
+
+        result = testDiv.testDiv(info[5])
+        #append the output to temp file
+        os.system('echo "' + str(result) + '" >> temp/testCaseOutputs.txt')
+
+        # compare the result from the test driver to the expected outcome 
+        # and append the result to the temporary file
+        if result == info[6]:
+            os.system('echo "True" >> temp/testCaseEvaluations.txt')
+        
+        else:
+            os.system('echo "False" >> temp/testCaseEvaluations.txt')
+    
+
     # final condition that appends "Invalid Test" if there is not a driver  
     # for the specified function
     else:
