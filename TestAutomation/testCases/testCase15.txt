@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0015
-Requirement: Addition of two numbers
+Requirement: Multiplication of two numbers
 Component: functions.py
 Driver: testMul.py
 Method: mul(x, y)
