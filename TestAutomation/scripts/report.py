@@ -49,9 +49,9 @@ def generateReport(info, keys):
 
     
     
-        for i in range(1, len(testResult) + 1):
+        for i in range(len(testResult)):
          
-            result = info[keys[i - 1]]
+            result = info[keys[i]]
             
             print('<b>Test ID:</b> ' + result[0] + '<br>')
             print('<b>Requirement:</b> ' + result[1] + '<br>')
