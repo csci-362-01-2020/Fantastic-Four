@@ -69,14 +69,7 @@ def generateReport(info, keys):
                 print('<b style="color:red;">Test Failed</b> <br>')
                 
             print('<hr>')
-            
-            
-            #print('<p>')
-            #for item in result:
-            #    print(item)
-            #print(testOutput[i-1])
-            #print(testResult[i-1])
-            #print('</p>')
+       
             
         
         print('</body>')
