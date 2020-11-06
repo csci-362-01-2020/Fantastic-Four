@@ -1,8 +1,8 @@
 Test Suite: TS0001
 Test ID: TC0025
-Requirement: Addition of two numbers
+Requirement: Exponentiation of two numbers
 Component: functions.py
-Driver: testAdd.py
-Method: add(x, y)
-Inputs: 0
-Oracles: 0
+Driver: testPow.py
+Method: pow(x, y)
+Inputs: sys.maxsize, 2
+Oracles: 85070591730234615847396907784232501249

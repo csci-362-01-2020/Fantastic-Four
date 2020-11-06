@@ -79,7 +79,7 @@ def runTest(info):
     
     elif 'pow(' in info[4][:4]:
 
-        result = testDiv.testDiv(info[5])
+        result = testPow.testPow(info[5])
         #append the output to temp file
         os.system('echo "' + str(result) + '" >> temp/testCaseOutputs.txt')
 

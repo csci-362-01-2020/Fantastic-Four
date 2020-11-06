@@ -62,7 +62,7 @@ def generateReport(info, keys):
             print('<b>Oracle:</b> ' + str(result[6]) + '<br>')
             print('<b>Output:</b> ' + str(testOutput[i]) + '<br>')
             
-            if (str(testResult[i-1]) == "True"):
+            if (str(testResult[i]) == "True"):
                 print('<b style="color:green;">Test Passed</b> <br>')
                 
             else:

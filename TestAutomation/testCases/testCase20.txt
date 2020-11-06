@@ -1,8 +1,8 @@
 Test Suite: TS0001
 Test ID: TC0020
-Requirement: Addition of two numbers
+Requirement: Division of two numbers
 Component: functions.py
-Driver: testAdd.py
-Method: add(x, y)
-Inputs: 0
-Oracles: 0
+Driver: testDiv.py
+Method: div(x, y)
+Inputs: sys.maxsize, 2
+Oracles: 4.611686018427388e+18

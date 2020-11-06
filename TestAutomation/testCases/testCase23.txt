@@ -1,8 +1,8 @@
 Test Suite: TS0001
 Test ID: TC0023
-Requirement: Addition of two numbers
+Requirement: Exponentiation of two numbers
 Component: functions.py
-Driver: testAdd.py
-Method: add(x, y)
-Inputs: 0
-Oracles: 0
+Driver: testPow.py
+Method: pow(x, y)
+Inputs: 1.1, 2.1
+Oracles: 1.2215876651600335
