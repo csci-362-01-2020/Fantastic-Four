@@ -40,11 +40,13 @@ def generateReport(info, keys):
         sys.stdout = out
         
         print('<html>')
-        print('<style> hr {width:100%; height:10px; background-color:black} </style>')
+        print('<style>table,th, td {border: 3px solid black;} </style>')
+        
         print('<body>')
+        print('<table style="width:100%">')
+        print('<tr>\n <th>Test ID</th>\n <th>Requirement</th>\n <th>Driver</th>\n <th>Component</th>\n <th>Method</th>\n <th>Inputs</th>\n <th>Oracle</th>\n <th>Output</th>\n <th>Result</th> </tr>')
         
         print('<h1 style="color:blue;"> Calculate Activity Test Report ' + str(now.strftime('%Y-%m-%d %H:%M:%S')) + '</h1>')
-        print('<hr>')
         
 
     
@@ -53,22 +55,25 @@ def generateReport(info, keys):
          
             result = info[keys[i]]
             
-            print('<b>Test ID:</b> ' + result[0] + '<br>')
-            print('<b>Requirement:</b> ' + result[1] + '<br>')
-            print('<b>Driver:</b> ' + result[2] + '<br>')
-            print('<b>Component:</b> ' + result[3] + '<br>')
-            print('<b>Method:</b> ' + result[4] + '<br>')
-            print('<b>Inputs:</b> ' + str(result[5]) + '<br>')
-            print('<b>Oracle:</b> ' + str(result[6]) + '<br>')
-            print('<b>Output:</b> ' + str(testOutput[i]) + '<br>')
+            print('<tr>')
+            print('<td> ' + result[0] + '</td>')
+            print('<td> ' + result[1] + '</td>')
+            print('<td> ' + result[2] + '</td>')
+            print('<td> ' + result[3] + '</td>')
+            print('<td> ' + result[4] + '</td>')
+            print('<td> ' + str(result[5]) + '</td>')
+            print('<td> ' + str(result[6]) + '</td>')
+            print('<td> ' + str(testOutput[i]) + '</td>')
             
             if (str(testResult[i]) == "True"):
-                print('<b style="color:green;">Test Passed</b> <br>')
+                print('<td style="color:green;">Test Passed</td>')
                 
             else:
-                print('<b style="color:red;">Test Failed</b> <br>')
+                print('<td style="color:red;">Test Failed</td>')
                 
-            print('<hr>')
+
+            print('</tr>')
+            
        
             
         
