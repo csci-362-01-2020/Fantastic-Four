@@ -44,7 +44,7 @@ def generateReport(info, keys):
         
         print('<body>')
         print('<table style="width:100%">')
-        print('<tr>\n <th>Test ID</th>\n <th>Requirement</th>\n <th>Driver</th>\n <th>Component</th>\n <th>Method</th>\n <th>Inputs</th>\n <th>Oracle</th>\n <th>Output</th>\n <th>Result</th> </tr>')
+        print('<tr>\n <th>Test ID</th>\n <th>Requirement</th>\n <th>Component</th>\n <th>Driver</th>\n <th>Method</th>\n <th>Inputs</th>\n <th>Oracle</th>\n <th>Output</th>\n <th>Result</th> </tr>')
         
         print('<h1 style="color:blue;"> Calculate Activity Test Report ' + str(now.strftime('%Y-%m-%d %H:%M:%S')) + '</h1>')
         
