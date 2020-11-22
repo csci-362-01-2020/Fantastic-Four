@@ -1,0 +1,14 @@
+Fault 1: Line 159, replace the + with a - such that the line reads
+	return x - y
+	
+Fault 2: Line 580, replace the - with a + such that the line reads
+	return x + y
+
+Fault 3: Line 446, add a * such that the line reads
+	return x ** y
+	
+Fault 4: Line 260, add a / such that the line reads
+	return x // y
+	
+Fault 5: Line 471, remove a * such that the line reads
+	return int(x) * int(y)

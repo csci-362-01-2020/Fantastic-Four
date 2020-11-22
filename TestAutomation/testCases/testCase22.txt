@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0022
-Requirement: Exponentiation of two numbers
+Requirement: Exponentiation of negative and positive integer
 Component: functions.py
 Driver: testPow.py
 Method: pow(x, y)

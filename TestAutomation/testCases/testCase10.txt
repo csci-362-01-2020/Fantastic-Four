@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0010
-Requirement: Subtraction of two numbers
+Requirement: Subtraction involving max sized number
 Component: functions.py
 Driver: testSub.py
 Method: sub(x, y)

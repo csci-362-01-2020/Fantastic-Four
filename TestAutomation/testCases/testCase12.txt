@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0012
-Requirement: Multiplication of two numbers
+Requirement: Multiplication of negative and positive integer
 Component: functions.py
 Driver: testMul.py
 Method: mul(x, y)

@@ -1,8 +1,8 @@
 Test Suite: TS0001
 Test ID: TC0016
-Requirement: Division of two numbers
+Requirement: Division of two whole numbers
 Component: functions.py
 Driver: testDiv.py
 Method: div(x, y)
-Inputs: 1, 2
-Oracles: 0.5
+Inputs: 2, 1
+Oracles: 2

@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0020
-Requirement: Division of two numbers
+Requirement: Division involving max sized number
 Component: functions.py
 Driver: testDiv.py
 Method: div(x, y)

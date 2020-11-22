@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0018
-Requirement: Division of two numbers
+Requirement: Division of two floats
 Component: functions.py
 Driver: testDiv.py
 Method: div(x, y)

@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0007
-Requirement: Subtraction of two numbers
+Requirement: Subtraction of negative and positive integer
 Component: functions.py
 Driver: testSub.py
 Method: sub(x, y)

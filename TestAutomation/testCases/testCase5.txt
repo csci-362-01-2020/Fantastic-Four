@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0005
-Requirement: Addition of two numbers
+Requirement: Addition involving max sized number
 Component: functions.py
 Driver: testAdd.py
 Method: add(x, y)

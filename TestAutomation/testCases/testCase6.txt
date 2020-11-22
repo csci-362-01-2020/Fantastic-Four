@@ -1,6 +1,6 @@
 Test Suite: TS0001
 Test ID: TC0006
-Requirement: Subtratcion of two numbers
+Requirement: Subtratcion of two whole numbers
 Component: functions.py
 Driver: testSub.py
 Method: sub(x, y)
