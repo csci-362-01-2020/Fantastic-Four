@@ -5,4 +5,4 @@ Component: functions.py
 Driver: testDiv.py
 Method: div(x, y)
 Inputs: -1, 1
-Oracles: -1.0
+Oracles: -1
