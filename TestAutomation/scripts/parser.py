@@ -3,6 +3,13 @@
 import math
 import sys
 
+# Script Name: parser.py
+# Method: parse(num)
+# Purpose: Parses the input file and 
+# returns a dictionary of all the test cases
+# Inputs: the number of test case files
+# Outputs: A dictionary with all the test case files information
+
 def parse(num):
 
     # Return dictionary

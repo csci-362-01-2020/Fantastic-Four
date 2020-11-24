@@ -5,6 +5,12 @@ import parser
 import tester
 import report
 
+# Script Name: runAllTests.py
+# Method: main()
+# Purpose: Script to run all the test cases
+# Inputs: None
+# Outputs: A professional grade report located in reports
+
 def main():
     
     # clears the output of the testCaseEvaluations.txt and

@@ -5,6 +5,15 @@
 import os
 import sys
 
+# Script Name: tester.py
+# Method: runTest(info)
+# Purpose: This script will run the appropriate test 
+# case file and output the result as the equivalence 
+# between the output and the expected oracle
+# Inputs: a list of parsed test case file data
+# Outputs: a file of boolean values and the file 
+# of all the outputs
+
 def runTest(info):
     
     sys.path.append('testCasesExecutables')

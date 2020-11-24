@@ -6,6 +6,12 @@ import os
 import sys
 import datetime 
 
+# Script Name: report.py
+# Method: generateReport(info, keys)
+# Purpose: this script will do the heavy lifting for generating the report
+# Inputs: dictionary of test case data, key for the test case data
+# Outputs: a professional grade report
+
 def generateReport(info, keys):
 
     #build an array of test results

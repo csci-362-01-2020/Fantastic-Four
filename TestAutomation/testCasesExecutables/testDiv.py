@@ -4,6 +4,13 @@
 import math
 import sys
 
+# Script Name: testDiv.py
+# Method: testDiv(operands)
+# Purpose: test the division of two numbers for 
+# the calculate-activity
+# Inputs: list of operands
+# Outputs: the result of the div(x, y) method
+
 def testDiv(operands):
 
     sys.path.append('project/src/calculate-activity')

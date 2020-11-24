@@ -4,6 +4,13 @@
 import math
 import sys
 
+# Script Name: testMul.py
+# Method: testMul(operands)
+# Purpose: test the multiplication of two numbers for 
+# the calculate-activity
+# Inputs: list of operands
+# Outputs: the result of the mul(x, y) method
+
 def testMul(operands):
 
     sys.path.append('project/src/calculate-activity')

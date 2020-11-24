@@ -4,6 +4,13 @@
 import math
 import sys
 
+# Script Name: testAdd.py
+# Method: testAdd(operands)
+# Purpose: test the addition of two numbers for 
+# the calculate-activity
+# Inputs: list of operands
+# Outputs: the result of the add(x, y) method
+
 def testSub(operands):
 
     sys.path.append('project/src/calculate-activity')
